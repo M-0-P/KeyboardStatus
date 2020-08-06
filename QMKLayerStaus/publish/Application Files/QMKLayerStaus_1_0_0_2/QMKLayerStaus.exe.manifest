@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QMKLayerStaus.exe" version="1.0.0.2" publicKeyToken="4c66e6cf1c2483c7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QMKLayerStaus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="QMKLayerStaus.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HidLibrary.dll" size="42496">
+      <assemblyIdentity name="HidLibrary" version="3.3.28.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>poq6XRM5bGNmHOwzNaRBruSnzYQtDxellsRTb5ogarg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QMKLayerStaus.exe" size="22496">
+      <assemblyIdentity name="QMKLayerStaus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z8pMtdUBFLXyjqt9KSmjAHcZX0AWUfjZzOfJXX3I7oE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="QMKLayerStaus.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-AKTNDL5\micha" issuerKeyHash="19b0378b6ba502baeb08b5d862ba8cce21c34619" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CpjLeyzlDjft38WSzZPkHDIN+ph9uXn47uU8yhNbyvU=</DigestValue></Reference></SignedInfo><SignatureValue>o16AfNtnirHy4wqLuFMBaNGZZzSD1FSW4H97Hyfv5tRfsf3HXU1VVEaTUZhEPBWTgYFLYhLYXMBZhsMcPLIEu8f8XOYtpwJcBY7gZDsJE5MGj8gRBhphtOC15j0vWKGahC1+SApz1JakWhD4slABF6KjFAYgHG0xRYwqrEYgAgI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5jNZFlbCagjPgp4zOshUek3AExd1CFTsi1oWwzrz0O0R9JhkhGsCJ8QzndQ6V0NuydeHIaHbsFEimzJ8wMEw1NUcP8beanDmDhypiXiD5bqLTbYh8vUzeyPvXv6UWUrvhiW6TTrWIeMEXwF/gP2VAkycca2ggaWk2hQN0Tn1bOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f5ca5b13ca3ce5eef879b97d98fa0d321ce493cd92c5dfed370ee52c7bcb980a" Description="" Url=""><as:assemblyIdentity name="QMKLayerStaus.exe" version="1.0.0.2" publicKeyToken="4c66e6cf1c2483c7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-AKTNDL5\micha</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>06H2gy1v1ejKaJp5ai8Y0NNDw2aD3qfuy58OqOl2uB8=</DigestValue></Reference></SignedInfo><SignatureValue>bgJkO3ze3qDhD1r0xQzu1fg6knhAMNGz2YiMC1uE/eWGkOa9cPBvOkI++DqOw2N+827EbV2Ehd0GyTkyFWbd9DEgVgdDhWh50rQrRDeLSkLyHcyB/8j2hIi6twO5FqFGw2wDVIYy1VYR2AEDwTnysy6s0v2diBOdg3alXI8/KWc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5jNZFlbCagjPgp4zOshUek3AExd1CFTsi1oWwzrz0O0R9JhkhGsCJ8QzndQ6V0NuydeHIaHbsFEimzJ8wMEw1NUcP8beanDmDhypiXiD5bqLTbYh8vUzeyPvXv6UWUrvhiW6TTrWIeMEXwF/gP2VAkycca2ggaWk2hQN0Tn1bOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKUtNVJAyPIxB61GNRa/FAjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEASwBUAE4ARABMADUAXABtAGkAYwBoAGEwHhcNMjAwODA0MTcxNDEzWhcNMjEwODA0MjMxNDEzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEASwBUAE4ARABMADUAXABtAGkAYwBoAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOYzWRZWwmoIz4KeMzrIVHpNwBMXdQhU7ItaFsM689DtEfSYZIRrAifEM53UOldDbsnXhyGh27BRIpsyfMDBMNTVHD/G3mpw5g4cqYl4g+W6i022IfL1M3sj717+lFlK74Yluk061iHjBF8Bf4D9lQJMnHGtoIGlpNoUDdE59WzlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsizEZPgLef9sy1cn/ychU3D10fB0XBU4p9G8acwzfnWLMayIhqGOX9vn/WAWmn8VBG/d6xNkJ7pX4CLN/kqFIqDRDf1DVQbLOUG+hYVtZPxB3b6Ej0xlkeuJVtkH9r1ook68es52+u0feLL3pF+hwWoS764mk64P86Hz5mgIZNw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

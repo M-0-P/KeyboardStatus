@@ -1,0 +1,17 @@
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\bin\Debug\QMKLayerStaus.exe.config
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\bin\Debug\QMKLayerStaus.exe
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\bin\Debug\QMKLayerStaus.pdb
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.MainForm.resources
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.Properties.Resources.resources
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.csproj.GenerateResource.cache
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.exe
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.pdb
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\bin\Debug\HidLibrary.dll
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\bin\Debug\HidLibrary.pdb
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.csproj.CopyComplete
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\bin\Debug\QMKLayerStaus.exe.manifest
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\bin\Debug\QMKLayerStaus.application
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.exe.manifest
+C:\Users\micha\source\repos\QMKLayerStaus\QMKLayerStaus\obj\Debug\QMKLayerStaus.application
